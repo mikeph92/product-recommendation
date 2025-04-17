@@ -1,0 +1,1 @@
+web: chmod +x setup.sh && ./setup.sh && streamlit run main.py --server.maxUploadSize=200 --server.enableCORS=false --server.enableXsrfProtection=true --browser.gatherUsageStats=false --runner.magicEnabled=true --runner.fastReruns=true
