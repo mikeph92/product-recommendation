@@ -19,8 +19,8 @@ source venv/bin/activate
 # Upgrade pip
 python -m pip install --upgrade pip
 
-# Install maturin first
-pip install maturin
+# Install maturin first (required for underthesea-core)
+pip install maturin==1.5.1
 
 # Install dependencies
 pip install -r requirements.txt
