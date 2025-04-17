@@ -1,1 +1,1 @@
-web: chmod +x setup.sh && ./setup.sh && streamlit run main.py --server.maxUploadSize=200 --server.enableCORS=false --server.enableXsrfProtection=true --browser.gatherUsageStats=false --runner.magicEnabled=true --runner.fastReruns=true
+web: chmod +x setup.sh && ./setup.sh && python -m pip install --upgrade pip && python -m pip install maturin && streamlit run main.py --server.maxUploadSize=200 --server.enableCORS=false --server.enableXsrfProtection=true --browser.gatherUsageStats=false --runner.magicEnabled=true --runner.fastReruns=true

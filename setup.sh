@@ -12,6 +12,11 @@ mkdir -p .streamlit
 export PYTHONMALLOC=malloc
 export MALLOC_ARENA_MAX=2
 
+# Install build dependencies
+pip install --upgrade pip
+pip install wheel setuptools
+pip install maturin
+
 # Install dependencies
 pip install -r requirements.txt
 

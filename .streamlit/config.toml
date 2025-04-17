@@ -2,6 +2,7 @@
 maxUploadSize = 200
 enableCORS = false
 enableXsrfProtection = true
+headless = true
 
 [browser]
 gatherUsageStats = false
@@ -27,4 +28,7 @@ messageFormat = "%(asctime)s - %(message)s"
 
 [deprecation]
 showfileUploaderEncoding = false
-showPyplotGlobalUse = false 
+showPyplotGlobalUse = false
+
+[global]
+developmentMode = false 
