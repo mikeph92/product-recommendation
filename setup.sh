@@ -19,6 +19,9 @@ source venv/bin/activate
 # Upgrade pip
 python -m pip install --upgrade pip
 
+# Install maturin first
+pip install maturin
+
 # Install dependencies
 pip install -r requirements.txt
 
